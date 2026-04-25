@@ -68,6 +68,9 @@ Repository structure is laid out for:
 
 > *(Forthcoming — pulling whatever physical builds and prototype photos exist into `/images/`.)*
 
+![Stripping bark from a raw didgeridoo log in the shop](images/making%20didgeridoo.jpg)
+*In the shop with a peeled didgeridoo log — early stage of a stave-built (or hybrid) build before the bore is established.*
+
 ## What this work is for
 
 - **The acoustic question** — calibrating the table against measured pitch from physical builds. Does a stave-built didgeridoo built to the calculated dimensions actually play in tune?
