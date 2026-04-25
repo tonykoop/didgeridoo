@@ -11,7 +11,7 @@ Engineering documentation for the **stave-built didgeridoo** — a long Australi
 
 The repository combines three threads:
 
-1. **A 2013 acoustic study** I conducted in my engineering notebook covering 25 musical keys (C1–C3), with frequency, wavelength, build length, and stave-width calculations for each key.
+1. **A 2013 acoustic study** I conducted in my engineering notebook covering 25 musical keys (C1–C3, with build lengths from ~27" at C3 up to ~107" at C1), with frequency, wavelength, build length, and stave-width calculations for each key.
 2. **CAD geometry** for stave-built didgeridoo bodies derived from that table.
 3. **Brainstorming and design work** on internal-surface treatments — smooth, ribbed, concentric-ringed — that shape the instrument's harmonic content.
 
@@ -33,7 +33,7 @@ f ≈ c / (4 × L)
 
 where `f` is fundamental frequency, `c` is speed of sound at the playing temperature (~37 °C for warm exhaled breath = ~351.8 m/s), and `L` is the effective acoustic length.
 
-In my 2013 notebook study I calculated build dimensions for **25 keys from C1 (32.7 Hz, ~107" long) to C3 (130.8 Hz, ~27" long)**, with stave widths and inner diameters tabulated across three internal aspect ratios (ID × length): 22:1, 24:1, and 26:1. The aspect ratio governs how cylindrical-versus-conical the bore is, which in turn shapes the harmonic content.
+In my 2013 notebook study I calculated build dimensions for **25 keys from C1 (32.7 Hz, ~107" long) to C3 (130.8 Hz, ~27" long)**, with stave widths and inner diameters tabulated across three length-to-diameter aspect ratios: 22:1, 24:1, and 26:1. The L:D ratio governs the slenderness of the instrument — at a given length, a narrower bore (higher L:D) produces a darker tone with stronger upper harmonics; a fatter bore yields a brighter, more open sound.
 
 The engineering interest of stave construction is precision: cutting 6, 8, or 12 staves with the right width, taper, and bevel angle to assemble into a target bore is much more controllable than excavating a branch. The stave geometry depends on the target bore diameter and stave count — calculable from the 2013 table.
 
