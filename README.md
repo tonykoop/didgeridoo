@@ -104,7 +104,7 @@ didgeridoo/
 | Section | Status |
 |---|---|
 | Repo description, license, gitignore | ✓ done |
-| 2013 notebook entry (primary source) | photographed; clean scans forthcoming |
+| 2013 notebook entry (primary source) | ✓ photographed and committed |
 | Hero photo | forthcoming |
 | CAD — bore profile geometry | not started |
 | CAD — stave geometry | not started |
