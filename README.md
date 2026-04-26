@@ -3,7 +3,7 @@
 > *A 2013 acoustic study of stave-built didgeridoos across 25 musical keys, plus the engineering documentation, CAD work, and design brainstorming that has accumulated around it since.*
 
 ![Hero photo](images/00-hero-didgeridoo.jpg)
-*(placeholder — drop in a finished-instrument photo or a notebook spread)*
+*Didgeridoo blanks and rough-bored bodies on the shop bench — the physical side of the stave-built wind-instrument problem before the acoustic-length math turns into a finished bore.*
 
 ## What this is
 
