@@ -41,8 +41,8 @@ The engineering interest of stave construction is precision: cutting 6, 8, or 12
 
 The primary source for this repository is a 2013 lab-notebook entry (witnessed/signed/dated), pictured below:
 
-![2013 didgeridoo notebook entry](research/2013-06-16-stave-design-didgeridoo.jpg)
-*(forthcoming — clean scan of the notebook spread)*
+![2013 didgeridoo notebook entry — Sunday June 16, 2013, page 9](images/20260425_122104.jpg)
+*The notebook spread: Figure 8-a Key Length & Diameter Table (25 chromatic keys C1–C3), Didgeridoo Diameters bar chart, Figure 8-b Key Dimensions Table, plus brainstorming on stave count, wood species, production paths, and design characteristics. Witnessed and dated.*
 
 Contents of that entry:
 
