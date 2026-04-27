@@ -111,4 +111,4 @@ didgeridoo/
 | CAD — jig designs | not started |
 | Physical builds | searching personal archives |
 
-A repository in motion, not a finished portfolio piece.
+Living document — the primary-source acoustics table is already in place; CAD geometry and recovered physical-build documentation are the main remaining additions.
