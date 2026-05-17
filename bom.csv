@@ -1,0 +1,11 @@
+item_id,item,qty,spec,status,source_status,evidence,notes
+BOM-001,Prototype tube,1,1.5 in nominal ID PVC or comparable test tube,optional,unverified_until_purchase,didgeridoo-design-table.xlsx row 46,"Fastest length and mouthpiece validation path; not final aesthetic material."
+BOM-002,Dried agave stalk,1,4-6 in diameter and long enough for selected blank,optional,unverified_until_purchase,didgeridoo-design-table.xlsx row 44,"Use only if the natural bore can be measured and cleaned safely."
+BOM-003,Hardwood split blank,1,blank large enough for selected OD and length,optional,unverified_until_purchase,didgeridoo-design-table.xlsx row 45,"Candidate for CNC-routed halves after geometry is validated."
+BOM-004,Beeswax mouthpiece ring,1,shape to 1.5 in opening,required_for_play_test,unverified_until_purchase,didgeridoo-design-table.xlsx row 47,"Removable/testable mouthpiece before permanent ergonomic decisions."
+BOM-005,Slow-cure epoxy,4 oz,breath-adjacent-safe only after cure and review,conditional,unverified_until_purchase,didgeridoo-design-table.xlsx row 48,"For split-blank glue-up; safety and cure state must be documented."
+BOM-006,Sandpaper,assorted,80 120 220 exterior and bore grits,required,unverified_until_purchase,didgeridoo-design-table.xlsx row 49,"Avoid loose dust in bore before play testing."
+BOM-007,Bore sealant,4 oz,shellac or other breath-contact-reviewed finish,required,unverified_until_purchase,didgeridoo-design-table.xlsx row 51,"Do not use until finish safety gate is documented."
+BOM-008,Exterior finish,8 oz,tung oil shellac paint or other exterior finish,optional,unverified_until_purchase,didgeridoo-design-table.xlsx row 50,"Exterior-only unless separately cleared for bore contact."
+BOM-009,Digital tuner or spectrum app,1,records fundamental and toot frequencies,required,tool_required,validation-loop.csv,"Measurement tool rather than consumed material."
+BOM-010,Bore measuring tools,1 set,calipers dowels gauge balls or bore scope,required,tool_required,validation-loop.csv,"Needed before any CAD/DXF authority claim."

@@ -1,0 +1,6 @@
+artifact_id,path,profile,candidate_id,artifact_kind,authority_level,dimension_claim,source_basis,next_action,notes
+BPR-001,CAD/bore-profile/bore-profile-register.csv,all,all,register,planning_record,none,assignment and instrument-maker visual authority rules,keep updated as CAD is added,"This register is not fabrication geometry."
+BPR-002,CAD/bore-profile/v5-a1-bell-stations.csv,bell,DID-V5-A1-BELL-P0,measurement_template,future_authority_after_measurement,measurement_required,didgeridoo-design-table.xlsx rows 34-40,create measured station table,"Future station CSV should become the first authority candidate."
+BPR-003,CAD/bore-profile/v5-a1-bell.dxf,bell,DID-V5-A1-BELL-P0,dxf,not_created,none,none,derive only from reviewed station table,"No DXF exists yet; do not infer toolpaths from prose."
+BPR-004,CAD/bore-profile/v5-c2-conical-stations.csv,conical,DID-V5-C2-CONICAL-P0,measurement_template,comparison_only,measurement_required,didgeridoo-design-table.xlsx rows 24-31,defer until A1 validation,"Comparison profile only."
+BPR-005,CAD/bore-profile/v5-d2-cylindrical-stations.csv,cylindrical,DID-V5-D2-CYL-P0,measurement_template,comparison_only,measurement_required,didgeridoo-design-table.xlsx rows 17-22,defer until A1 validation,"Straight-bore reference for formula checks."

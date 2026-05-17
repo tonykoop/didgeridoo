@@ -1,0 +1,9 @@
+source_id,item_id,source_kind,source_name_or_query,verification_status,next_check,notes
+SRC-001,BOM-001,local_or_online_search,1.5 in ID PVC pipe or test tube,not_checked,verify diameter and wall at purchase,"Use only for acoustic prototype; measured ID overrides nominal size."
+SRC-002,BOM-002,local_material_search,dried agave stalk 4-6 in diameter,not_checked,verify dryness cracks bore and length,"Natural bores need full station measurement before tuning claims."
+SRC-003,BOM-003,hardwood_supplier_search,hardwood turning blank or glue-up stock,not_checked,verify species dimensions moisture and price,"Do not buy premium stock before PVC or scrap validation."
+SRC-004,BOM-004,maker_supply_search,beeswax block or mouthpiece wax,not_checked,verify purity and workability,"Avoid additives that smell or soften excessively during playing."
+SRC-005,BOM-005,adhesive_supplier_search,slow-cure epoxy suitable for wood,not_checked,verify cured safety data and open time,"Record product and cure schedule before breath-adjacent use."
+SRC-006,BOM-007,finish_supplier_search,shellac or bore-safe sealant,not_checked,verify cure odor dust and breath-contact suitability,"Finish safety must be validated before play."
+SRC-007,BOM-009,tooling,in-hand tuner or FFT/spectrum app,not_checked,calibrate against A4 440 Hz,"Record tool/app name in validation-loop.csv."
+SRC-008,BOM-010,tooling,calipers dowel gauges bore scope,not_checked,verify reach and resolution,"Long-bore measurement may need custom gauge rods."
