@@ -9,7 +9,7 @@ released from these notes.
 | --- | --- | --- | --- | --- |
 | DRW-001 | `drawings/didgeridoo-bore-profile.svg` | readable bore station preview | derived_preview | measured station CSV or reviewed design table |
 | DRW-002 | `drawings/didgeridoo-bore-profile.dxf` | shop/CNC bore authority | fabrication | reviewed bore CAD with traceable dimensions |
-| DRW-003 | `cad/didgeridoo.scad` | parametric master geometry | fabrication | selected candidate, station table, end-correction decision |
+| DRW-003 | `CAD/didgeridoo.scad` | parametric master geometry | fabrication | selected candidate, station table, end-correction decision |
 | DRW-004 | `print-packet/assembly-plate.pdf` | annotated build plate | derived_preview | DRW-002 or DRW-003 promoted to authority |
 
 ## Authority Boundary
@@ -21,6 +21,10 @@ review gates. They do not authorize cutting a final didgeridoo body.
 The first authority candidate should be a measured bore station table or
 reviewed parametric CAD model. Any SVG, PDF, render, or hero image produced
 before that point is a preview or reference image only.
+
+The repo currently uses `CAD/` rather than lowercase `cad/`; keep new starter
+CAD notes there unless a future layout-only migration changes the directory
+convention.
 
 ## Drawing Checks
 

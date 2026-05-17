@@ -101,6 +101,10 @@ didgeridoo/
 
 ## Status
 
+Packet readiness: `L1_packet` / V5-shaped starter slice. Fabrication authority
+is not released; CAD/DXF/design-table authority still requires measured bore
+stations or reviewed parametric geometry.
+
 | Section | Status |
 |---|---|
 | Repo description, license, gitignore | ✓ done |
@@ -112,3 +116,6 @@ didgeridoo/
 | Physical builds | searching personal archives |
 
 Living document — the primary-source acoustics table is already in place; CAD geometry and recovered physical-build documentation are the main remaining additions.
+
+See `v5-packet-alignment.md` for the current V5 gap map and issue #1 closure
+boundary.
