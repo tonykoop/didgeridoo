@@ -1,6 +1,6 @@
 validation_id,candidate_id,gate,next_action,evidence_required,pass_condition,status,notes
 VAL-GATE-001,DID-V5-A1-BELL-P0,acoustic_law_schema,run validate_acoustic_law.py on family-spec.csv,validator output,0 errors,passed,"Passed locally for the current starter family-spec."
-VAL-GATE-002,DID-V5-A1-BELL-P0,visual_authority_schema,run validate_visual_authority.py on visual-output-register.csv,validator output,0 errors,passed,"Current register covers reference photos only; no fabrication visual authority is claimed."
+VAL-GATE-002,DID-V5-A1-BELL-P0,visual_authority_schema,run validate_visual_authority.py on visual-output-register.csv,validator output,0 errors,passed,"Current register has reference photos plus an unpopulated measurement-template slot for validator compatibility; no completed fabrication geometry is claimed."
 VAL-GATE-003,DID-V5-A1-BELL-P0,bore_station_measurement,measure ID stations every 3-6 in,bore station CSV or notebook photo,station table recorded,not_started,"Required before CAD/DXF authority."
 VAL-GATE-004,DID-V5-A1-BELL-P0,cold_pitch,record first drone before trimming,tuner or FFT screenshot/log,below or within trim range for A1,not_started,"Cut long before pitch correction."
 VAL-GATE-005,DID-V5-A1-BELL-P0,warmed_pitch,record drone after warm-up,tuner or FFT screenshot/log,target A1 55.00 Hz after final trim,not_started,"Warm breath changes effective length and sound speed."

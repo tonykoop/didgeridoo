@@ -33,6 +33,17 @@ does not satisfy the full acceptance gate.
 | Bore measurement gates | `validation.csv`, `validation-loop.csv` | present | record station ID, pitch, leak, trim, and safety evidence |
 | Wolfram/acoustics | `analysis/wolfram-study-notes.md` | scoped calculation notes | add measured-data sensitivity study |
 
+## Round 30 Explorer Readiness
+
+`round30-explorer-readiness.md` records the stash reconciliation and current
+explorer promotion boundary. The stashed `explorer.html` was older than
+current main because current main already contains the useful explorer surface
+plus the repaired GitHub action link.
+
+This update keeps the packet at `L1_packet`. The explorer is review-ready, but
+the next promotion still depends on measured bore stations, pitch/leak logs,
+breath-contact safety evidence, and reviewed CAD/DXF/design-table authority.
+
 ## Authority Boundary
 
 Fabrication authority remains unreleased. The workbook, README, design notes,

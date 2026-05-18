@@ -7,7 +7,7 @@
   "issue": "tonykoop/didgeridoo#1",
   "readiness": "L1_packet",
   "release_status": "private review",
-  "packet_version": "instrument-maker v4.4.8 bare-bones R3",
+  "packet_version": "instrument-maker v4.5.0 explorer readiness R4",
   "family_members": [
     "didgeridoo",
     "lip-reed drone",
@@ -32,7 +32,8 @@
     "family-spec.csv",
     "CAD/bore-profile/bore-profile-register.csv",
     "CAD/didgeridoo-openscad-authority-plan.md",
-    "CAD/mcp-session-log.md"
+    "CAD/mcp-session-log.md",
+    "round30-explorer-readiness.md"
   ],
   "non_authority_visuals": [
     "images/00-hero-didgeridoo.jpg",
@@ -85,6 +86,7 @@
     "drawing-brief.md",
     "fabrication-notes.md",
     "v5-packet-alignment.md",
+    "round30-explorer-readiness.md",
     "analysis/wolfram-study-notes.md",
     "CAD/bore-profile/bore-profile-register.csv",
     "CAD/didgeridoo-openscad-authority-plan.md",
@@ -97,6 +99,7 @@
   ],
   "notes": [
     "Explorer and manifest surfaces are documentation aids only; they do not promote fabrication authority.",
+    "Round 30 inspected the stashed didgeridoo explorer and kept current-main explorer schema because it already preserved the useful surface plus the GitHub-link fix.",
     "The current packet is intentionally L1 until measured bore, pitch, leak, safety, and authority evidence exists."
   ]
 }
