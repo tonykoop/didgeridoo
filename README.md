@@ -56,7 +56,19 @@ The notebook page is the closest thing this repository has to a primary source. 
 
 ## CAD and jig design
 
-> *(Forthcoming — actively in progress.)*
+The first CAD authority pass is now scoped as a bore-station measurement
+capture, not as a build-ready bore claim. See:
+
+- `analysis/bore-station-measurement-plan.md` for datum, station, and review
+  rules.
+- `analysis/bore-station-station-map.csv` for normalized station IDs.
+- `analysis/bore-station-measurement-log.csv` for the empty measurement table
+  that must be populated before geometry authority exists.
+- `CAD/bore-profile/didgeridoo-bore-starter.scad` for a non-fabrication
+  OpenSCAD starter that renders station markers until measured bore diameters
+  are supplied.
+- `drawings/didgeridoo-bore-dxf-authority-plan.md` for the future DXF layer and
+  review gate.
 
 Repository structure is laid out for:
 
@@ -129,7 +141,8 @@ Core packet files:
 | Repo description, license, gitignore | ✓ done |
 | 2013 notebook entry (primary source) | ✓ photographed and committed |
 | Hero photo | forthcoming |
-| CAD — bore profile geometry | not started |
+| Bore station measurement plan | B5 starter added; no measured bore geometry claimed |
+| CAD — bore profile geometry | blocked on populated bore-station measurements |
 | CAD — stave geometry | not started |
 | CAD — jig designs | not started |
 | Physical builds | searching personal archives |
@@ -138,3 +151,5 @@ Living document — the primary-source acoustics table is already in place; CAD 
 
 See `v5-packet-alignment.md` for the current V5 gap map and issue #1 closure
 boundary.
+The current B5 OpenSCAD/DXF work is an authority plan and capture scaffold
+only.

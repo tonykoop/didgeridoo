@@ -1,0 +1,7 @@
+authority_id,artifact,path,status,can_drive_fabrication,requires_before_use,notes
+AUTH-B5-001,2013 notebook photo,images/20260425_122104.jpg,reference_evidence,false,"Transcribe and review source table","Primary historical evidence but not station-by-station bore measurement."
+AUTH-B5-002,CNC design workbook,didgeridoo-design-table.xlsx,planning_evidence,false,"Review formulas and export design table rows","Contains stopped-pipe and profile planning formulas; not a measured bore log."
+AUTH-B5-003,Bore station map,analysis/bore-station-station-map.csv,measurement_template,false,"Choose blank length and convert normalized stations","Defines capture stations only."
+AUTH-B5-004,Bore station log,analysis/bore-station-measurement-log.csv,empty_template,false,"Populate with measured positive diameters and review","Becomes a dimensional source only after measurement and review."
+AUTH-B5-005,OpenSCAD starter,CAD/bore-profile/didgeridoo-bore-starter.scad,starter,false,"Populate from AUTH-B5-004 or reviewed design table","May render a station plate now; bore envelope is blocked until dimensions exist."
+AUTH-B5-006,DXF authority plan,drawings/didgeridoo-bore-dxf-authority-plan.md,plan,false,"Export a DXF only after AUTH-B5-004 is reviewed","DXF path is planned; no DXF fabrication geometry is claimed in this lane."

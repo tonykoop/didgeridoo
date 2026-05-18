@@ -1,0 +1,13 @@
+station_id,station_pct,axial_reference,station_purpose,record_required,notes
+BS-000,0,mouthpiece_seal_plane,mouthpiece opening and lip seal datum,true,"Define after mouthpiece/wax datum is chosen."
+BS-005,5,normalized_body_length,near-mouthpiece entry bore,true,"Captures immediate post-mouthpiece constriction or expansion."
+BS-010,10,normalized_body_length,early bore transition,true,"Useful for conical or irregular blanks."
+BS-020,20,normalized_body_length,upper bore,true,"Record major/minor ID to catch ovality."
+BS-030,30,normalized_body_length,upper-middle bore,true,"No diameter assumption before measurement."
+BS-040,40,normalized_body_length,mid bore,true,"Station for profile interpolation only after review."
+BS-050,50,normalized_body_length,center bore,true,"Core station for cylindrical/conical comparison."
+BS-060,60,normalized_body_length,lower-middle bore,true,"Record wall thickness if reachable."
+BS-070,70,normalized_body_length,lower bore,true,"Marks start of possible bell transition in planning rows."
+BS-080,80,normalized_body_length,late bore,true,"Important for toot/overtone prediction."
+BS-090,90,normalized_body_length,pre-foot flare,true,"Captures bell or foot-end expansion."
+BS-100,100,foot_end_plane,open foot datum,true,"Measure after rough cut and again after any tuning trim."

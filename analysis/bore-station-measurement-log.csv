@@ -1,0 +1,13 @@
+instrument_id,blank_id,operator,date_utc,source_artifact,profile_model,station_id,station_pct,axial_position_in,inner_diameter_major_in,inner_diameter_minor_in,wall_thickness_in,circumference_in,measurement_tool,measurement_repeat_count,temperature_c,humidity_pct,photo_id,authority_status,notes
+DID-B5,,,,,unselected,BS-000,0,,,,,,,,,,,,unmeasured,"Mouthpiece datum; do not infer from photo."
+DID-B5,,,,,unselected,BS-005,5,,,,,,,,,,,,unmeasured,"Near-mouthpiece bore station."
+DID-B5,,,,,unselected,BS-010,10,,,,,,,,,,,,unmeasured,"Early bore transition station."
+DID-B5,,,,,unselected,BS-020,20,,,,,,,,,,,,unmeasured,"Upper bore station."
+DID-B5,,,,,unselected,BS-030,30,,,,,,,,,,,,unmeasured,"Upper-middle bore station."
+DID-B5,,,,,unselected,BS-040,40,,,,,,,,,,,,unmeasured,"Mid-bore station."
+DID-B5,,,,,unselected,BS-050,50,,,,,,,,,,,,unmeasured,"Center bore station."
+DID-B5,,,,,unselected,BS-060,60,,,,,,,,,,,,unmeasured,"Lower-middle bore station."
+DID-B5,,,,,unselected,BS-070,70,,,,,,,,,,,,unmeasured,"Lower bore or bell-transition station."
+DID-B5,,,,,unselected,BS-080,80,,,,,,,,,,,,unmeasured,"Late bore station."
+DID-B5,,,,,unselected,BS-090,90,,,,,,,,,,,,unmeasured,"Pre-foot flare station."
+DID-B5,,,,,unselected,BS-100,100,,,,,,,,,,,,unmeasured,"Open foot datum."
