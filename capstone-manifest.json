@@ -1,0 +1,102 @@
+{
+  "packet_id": "didgeridoo-v5-starter",
+  "title": "Didgeridoo Bare-Bones Starter Packet",
+  "instrument": "didgeridoo",
+  "build_target": "A1 bell-flared didgeridoo validation candidate",
+  "artifact_focus": "root-level L1 starter packet for review, measurement planning, and first validation build",
+  "issue": "tonykoop/didgeridoo#1",
+  "readiness": "L1_packet",
+  "release_status": "private review",
+  "packet_version": "instrument-maker v4.4.8 bare-bones R3",
+  "family_members": [
+    "didgeridoo",
+    "lip-reed drone",
+    "one-end-closed stopped pipe",
+    "open-foot wind instrument"
+  ],
+  "hero_image": "images/00-hero-didgeridoo.jpg",
+  "release_gate": {
+    "public_candidate": false,
+    "required_before_public": [
+      "Record measured bore station IDs for the selected candidate.",
+      "Record cold pitch, warmed pitch, leak checks, and trim response in validation logs.",
+      "Promote a reviewed CAD, DXF, measured station table, or design table before claiming fabrication authority.",
+      "Verify breath-contact glue, wax, finish, dust, odor, tack, and cure safety before sustained play.",
+      "Verify purchase-time sourcing and material availability before treating BOM rows as actionable buys."
+    ]
+  },
+  "fabrication_authority": [],
+  "planning_evidence": [
+    "didgeridoo-design-table.xlsx",
+    "design.md",
+    "family-spec.csv",
+    "CAD/bore-profile/bore-profile-register.csv",
+    "CAD/didgeridoo-openscad-authority-plan.md",
+    "CAD/mcp-session-log.md"
+  ],
+  "non_authority_visuals": [
+    "images/00-hero-didgeridoo.jpg",
+    "images/20260425_122104.jpg",
+    "images/making didgeridoo.jpg"
+  ],
+  "explicitly_unresolved": [
+    "measured bore station table",
+    "reviewed CAD or DXF fabrication authority",
+    "actual fundamental pitch after mouthpiece and warm-up",
+    "leak behavior at seams, mouthpiece, and bell edge",
+    "breath-contact finish and adhesive safety",
+    "verified supplier availability and purchase-time costs"
+  ],
+  "engineering": {
+    "cad": [
+      {
+        "source_file": "CAD/didgeridoo-openscad-authority-plan.md",
+        "kind": "authority-plan",
+        "status": "planning-only"
+      },
+      {
+        "source_file": "CAD/bore-profile/bore-profile-register.csv",
+        "kind": "bore-profile-register",
+        "status": "measurement-required"
+      }
+    ],
+    "wolfram": [
+      {
+        "source_file": "analysis/wolfram-study-notes.md",
+        "cloud_url": "",
+        "cloud_path": "analysis/wolfram-study-notes.md",
+        "kind": "acoustic-study-notes",
+        "permission": "local"
+      }
+    ]
+  },
+  "files_included": [
+    "README.md",
+    "design.md",
+    "bom.csv",
+    "sourcing.csv",
+    "cut-list.csv",
+    "validation.csv",
+    "validation-loop.csv",
+    "family-spec.csv",
+    "visual-output-register.csv",
+    "risks.md",
+    "photo-shotlist.md",
+    "drawing-brief.md",
+    "fabrication-notes.md",
+    "v5-packet-alignment.md",
+    "analysis/wolfram-study-notes.md",
+    "CAD/bore-profile/bore-profile-register.csv",
+    "CAD/didgeridoo-openscad-authority-plan.md",
+    "CAD/mcp-session-log.md",
+    "capstone-manifest.json",
+    "explorer.html",
+    "explorer-sections/overview.html",
+    "explorer-sections/cad.html",
+    "site/index.html"
+  ],
+  "notes": [
+    "Explorer and manifest surfaces are documentation aids only; they do not promote fabrication authority.",
+    "The current packet is intentionally L1 until measured bore, pitch, leak, safety, and authority evidence exists."
+  ]
+}

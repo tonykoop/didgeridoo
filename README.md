@@ -105,6 +105,25 @@ Packet readiness: `L1_packet` / V5-shaped starter slice. Fabrication authority
 is not released; CAD/DXF/design-table authority still requires measured bore
 stations or reviewed parametric geometry.
 
+## Starter Packet Surfaces
+
+Open `explorer.html` for a studio-facing overview of the current bare-bones
+packet. `site/index.html` redirects to that explorer until a fuller public
+build-log site is ready.
+
+Core packet files:
+
+- `design.md` - A1 bell-flared candidate, stopped-pipe assumptions, and
+  measurement-required unknowns.
+- `bom.csv`, `sourcing.csv`, and `cut-list.csv` - starter planning rows only;
+  purchase-time availability and prices remain unverified.
+- `validation.csv` and `validation-loop.csv` - bore, pitch, leak, trim, and
+  breath-contact safety gates.
+- `risks.md` and `photo-shotlist.md` - validation risks and documentation shots
+  for a future build.
+- `capstone-manifest.json` - machine-readable inventory and public-release
+  blockers.
+
 | Section | Status |
 |---|---|
 | Repo description, license, gitignore | ✓ done |
