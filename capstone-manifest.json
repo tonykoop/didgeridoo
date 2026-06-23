@@ -68,6 +68,13 @@
         "cloud_path": "analysis/wolfram-study-notes.md",
         "kind": "acoustic-study-notes",
         "permission": "local"
+      },
+      {
+        "source_file": "wolfram/didgeridoo-bore-acoustics.wl",
+        "cloud_path": "pending",
+        "cloud_url": "pending",
+        "permission": "Public-Execute",
+        "kind": "acoustics-starter"
       }
     ]
   },
