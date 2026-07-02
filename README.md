@@ -113,6 +113,8 @@ didgeridoo/
 
 ## Status
 
+**Status:** L1 concept packet
+
 Packet readiness: `L1_packet` / V5-shaped starter slice. Fabrication authority
 is not released; CAD/DXF/design-table authority still requires measured bore
 stations or reviewed parametric geometry.
@@ -135,6 +137,9 @@ Core packet files:
   for a future build.
 - `capstone-manifest.json` - machine-readable inventory and public-release
   blockers.
+- `evolution/` - Stage 0 evolution-pipeline intake (design intent, revision
+  register, master manifest with sha256 provenance) for `CAD/didgeridoo.scad`
+  and the design-table/wolfram sources it traces to. Gate A not yet run.
 
 | Section | Status |
 |---|---|
