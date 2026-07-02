@@ -59,6 +59,11 @@
         "source_file": "CAD/bore-profile/bore-profile-register.csv",
         "kind": "bore-profile-register",
         "status": "measurement-required"
+      },
+      {
+        "source_file": "CAD/didgeridoo.scad",
+        "kind": "parametric-envelope-master",
+        "status": "pending_measurement"
       }
     ],
     "wolfram": [
@@ -97,7 +102,9 @@
     "analysis/wolfram-study-notes.md",
     "CAD/bore-profile/bore-profile-register.csv",
     "CAD/didgeridoo-openscad-authority-plan.md",
+    "CAD/didgeridoo.scad",
     "CAD/mcp-session-log.md",
+    "wolfram/didgeridoo-bore-acoustics.wl",
     "capstone-manifest.json",
     "explorer.html",
     "explorer-sections/overview.html",

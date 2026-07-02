@@ -1,0 +1,42 @@
+{
+  "product": "didgeridoo",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "rev-A (pre-commit intake, 2026-07-01)",
+  "generated": "2026-07-01",
+  "cad_masters": [
+    {
+      "path": "CAD/didgeridoo.scad",
+      "format": "openscad-source",
+      "sha256": "86219732ab9d2847231d72b28dec062c1e952f19ee1c46049314f83971c8c2bf",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Parametric bore-flare envelope master. Cylindrical/conical families exact by definition from design-table mouth/bell IDs; bell family interior uses one labeled ASSUMPTION flare curve (no measured interior taper data exists in this repo yet)."
+    },
+    {
+      "path": "CAD/bore-profile/didgeridoo-bore-starter.scad",
+      "format": "openscad-source",
+      "sha256": "347c79901ed3589102918873d560f1468f90f00a92d4371e5c93419c03eac0cb",
+      "authority": "reference_only",
+      "lossy": false,
+      "notes": "Pre-existing station-capture template (renders a station-check plate until analysis/bore-station-measurement-log.csv is populated). Unchanged this pass; not superseded by CAD/didgeridoo.scad."
+    },
+    {
+      "path": "wolfram/didgeridoo-bore-acoustics.wl",
+      "format": "wolfram-source",
+      "sha256": "9279dd85ffd0d587cd3f784dfb5090c4f6353395e3e964bbdd76d4ed576090a8",
+      "authority": "derived_preview",
+      "lossy": false,
+      "notes": "Pre-existing stopped-pipe acoustics starter; source-only, not executed this pass. L2 evidence."
+    },
+    {
+      "path": "didgeridoo-design-table.xlsx",
+      "format": "design-table",
+      "sha256": "80c21687474361947217b07fb3bb809dc6939b7a2a04ae6574fa2205e11c3639",
+      "authority": "planning_evidence",
+      "lossy": false,
+      "notes": "Source workbook for family-spec.csv rows and design.md Source Basis values. Not itself a measured-bore fabrication authority (see analysis/bore-station-authority-register.csv AUTH-B5-002)."
+    }
+  ],
+  "notes": "OpenSCAD envelope source + family-spec.csv/design-table are the current masters; no measured bore-station data exists yet (analysis/bore-station-measurement-log.csv is fully unmeasured), so no artifact in this manifest is fabrication authority. No STEP/DXF export exists (drawings/didgeridoo-bore-dxf-authority-plan.md is a plan only). Gate A (Alpha workspace compile) not yet run."
+}
